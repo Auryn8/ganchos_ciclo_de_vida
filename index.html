@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+   <div id="vm">
+      <h3>{{ mensaje }}</h3>
+      <button v-on:click="mensaje ='ESTE ES EL NUEVO MENSAJE'">Cambiar mensaje</button>
+      <button v-on:click="destruir">Destruir instancia</button>
+      
+       
+   </div>
+    <script src="vue.js"></script>
+</body>
+</html>
